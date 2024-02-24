@@ -15,7 +15,8 @@
         "pay/pay",
         "publish/publish",
         "takeaway/takeaway",
-        "conversation/conversation"
+        "conversation/conversation",
+        "updateme/updateme"
       ]
     }
   ],

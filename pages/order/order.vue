@@ -170,7 +170,8 @@
 	const changeOrderState = async(cartId)=>{
 		finishOrder.value=false
 		await request({
-			url:'userCart/update/state/by/CartIdAndUserId',
+			// url:'userCart/update/state/by/CartIdAndUserId',
+			url: '/userCart/update/state/by/CartIdAndUserIdOfOrderSuccess',
 			method:"POST",
 			header: {
 				'content-type': 'application/json',

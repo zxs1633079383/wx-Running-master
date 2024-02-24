@@ -16,7 +16,8 @@
 				<text>余额:{{userData.userMoney}}元</text>
 			</view>
 			<view class="service-style">
-				<text>功能2</text>
+				<van-button @click="updateMe()">修改资料</van-button>
+				<!-- <text>功能2</text> -->
 			</view>
 		</view>
 	</view>
@@ -38,6 +39,17 @@
 	const store =Store()
 	const userData = computed(()=> {return store.userInfo})
 	console.log(userData.value);
+	
+	const updateMe = () =>{
+		console.log("123")
+		
+		
+		uni.navigateTo({
+			url:`/subpages/updateme/updateme`
+		})
+	}
+	
+	
 </script>
 
 <style lang="scss">

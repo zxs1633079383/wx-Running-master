@@ -95,6 +95,14 @@
                     "enablePullDownRefresh": false
                 }
                 
+                },
+                {
+                	"path" : "updateme/updateme",
+                	"style" : 
+                	{
+                		"navigationBarTitleText" : "",
+                		"enablePullDownRefresh" : false
+                	}
                 }
             ]
 		}

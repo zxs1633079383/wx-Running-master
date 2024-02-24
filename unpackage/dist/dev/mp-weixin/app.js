@@ -16,6 +16,7 @@ if (!Math) {
   "./subpages/publish/publish.js";
   "./subpages/takeaway/takeaway.js";
   "./subpages/conversation/conversation.js";
+  "./subpages/updateme/updateme.js";
 }
 const _sfc_main = {
   __name: "App",

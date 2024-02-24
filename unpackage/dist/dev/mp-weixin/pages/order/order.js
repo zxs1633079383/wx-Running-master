@@ -50,7 +50,8 @@ const _sfc_main = {
     const changeOrderState = async (cartId) => {
       finishOrder.value = false;
       await request_index.request({
-        url: "userCart/update/state/by/CartIdAndUserId",
+        // url:'userCart/update/state/by/CartIdAndUserId',
+        url: "/userCart/update/state/by/CartIdAndUserIdOfOrderSuccess",
         method: "POST",
         header: {
           "content-type": "application/json",

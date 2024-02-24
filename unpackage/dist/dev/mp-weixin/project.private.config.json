@@ -9,6 +9,27 @@
             "list": [
                 {
                     "name": "",
+                    "pathName": "subpages/updateMe/updateMe",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
                     "pathName": "pages/order/order",
                     "query": "",
                     "launchMode": "default",

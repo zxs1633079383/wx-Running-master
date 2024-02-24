@@ -96,6 +96,10 @@
 			})
 		})
 	}
+	
+	
+	
+	
 	const readFileAsBase64=(file,callback)=>{
 		console.log(file);
 		uni.getFileSystemManager().readFile({

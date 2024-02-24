@@ -4,7 +4,8 @@ const stores_counter = require("../../stores/counter.js");
 require("../../request/index.js");
 if (!Array) {
   const _component_van_image = common_vendor.resolveComponent("van-image");
-  _component_van_image();
+  const _component_van_button = common_vendor.resolveComponent("van-button");
+  (_component_van_image + _component_van_button)();
 }
 const _sfc_main = {
   __name: "me",
@@ -14,6 +15,12 @@ const _sfc_main = {
       return store.userInfo;
     });
     console.log(userData.value);
+    const updateMe = () => {
+      console.log("123");
+      common_vendor.index.navigateTo({
+        url: `/subpages/updateme/updateme`
+      });
+    };
     return (_ctx, _cache) => {
       return {
         a: common_vendor.p({
@@ -23,7 +30,8 @@ const _sfc_main = {
           src: common_vendor.unref(userData).userAvatar
         }),
         b: common_vendor.t(common_vendor.unref(userData).userName),
-        c: common_vendor.t(common_vendor.unref(userData).userMoney)
+        c: common_vendor.t(common_vendor.unref(userData).userMoney),
+        d: common_vendor.o(($event) => updateMe())
       };
     };
   }
