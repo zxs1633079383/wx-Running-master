@@ -1,0 +1,135 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-container.data-v-1cf27b2a {
+  width: 100%;
+  background-color: #efeef1;
+}
+.page-container .schoolSelect.data-v-1cf27b2a {
+  background-color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 30rpx;
+}
+.page-container .schoolSelect .schoolText.data-v-1cf27b2a {
+  font-size: 14px;
+  color: #654e4e;
+}
+.page-container .uni-margin-wrap.data-v-1cf27b2a {
+  padding: 20rpx;
+  height: 350rpx;
+}
+.page-container .view-index-zdgg.data-v-1cf27b2a {
+  padding-bottom: 10rpx;
+}
+.page-container .view-index-grid .service_text.data-v-1cf27b2a {
+  font-size: 12px;
+  color: #654e4e;
+}
+.page-container .style_icon.data-v-1cf27b2a {
+  font-size: 60rpx;
+  color: #007aff;
+  padding-bottom: 15rpx;
+}
+.page-container .index-buttton-index .button-container-fb.data-v-1cf27b2a {
+  padding: 20rpx 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-container .store-tabbar.data-v-1cf27b2a {
+  background-color: #fff;
+  text-align: center;
+}
+.page-container .store-tabbar .all-store-font.data-v-1cf27b2a {
+  color: #826fe3;
+}
+.page-container .store-tabbar .view-jdt.data-v-1cf27b2a {
+  margin-left: 10%;
+  width: 80%;
+  border: 2px solid #826fe3;
+  background-color: #826fe3;
+}
+.page-container .store-tabbar .flex-common.data-v-1cf27b2a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-container .store-tabbar .flex-common .view-all-store-button.data-v-1cf27b2a {
+  width: 33%;
+  padding: 14px 0;
+  box-shadow: 0.5px 0.1px 1px #ccc;
+}
+.page-container .store-tabbar .flex-common .view-all-store-button text.data-v-1cf27b2a {
+  font-size: 14px;
+  color: #323233;
+}
+.card-common.data-v-1cf27b2a {
+  margin-top: 1vh;
+  position: relative;
+}
+.card-common .store-state.data-v-1cf27b2a {
+  font-size: 12px;
+  text-align: center;
+  padding: 5rpx;
+  border: 5rpx solid seagreen;
+  color: seagreen;
+  position: absolute;
+  top: 15rpx;
+  right: 15rpx;
+  z-index: 9;
+}
+.card-common .store-state .triangle.data-v-1cf27b2a {
+  width: 0;
+  height: 0;
+  border: 15rpx solid;
+  border-color: transparent transparent seagreen transparent;
+  position: absolute;
+  left: 20rpx;
+  top: -30rpx;
+}
+.card-common .collect.data-v-1cf27b2a {
+  width: 25rpx;
+  height: 25rpx;
+  font-weight: bold;
+  color: #ffaa00;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.card-common .card-price.data-v-1cf27b2a {
+  display: flex;
+  justify-content: space-between;
+}
+.card-common .card-price .price_style.data-v-1cf27b2a {
+  font-size: 10px;
+  color: #c0c0c0;
+}
+.card-common .card-price .good-time.data-v-1cf27b2a {
+  font-size: 14px;
+  color: #323233;
+}

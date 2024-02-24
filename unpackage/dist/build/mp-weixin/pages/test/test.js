@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),o={};if(!Array){(e.resolveComponent("van-button")+e.resolveComponent("van-uploader"))()}const r=e._export_sfc(o,[["render",function(o,r){return{a:e.p({icon:"photo",type:"primary"})}}]]);wx.createPage(r);

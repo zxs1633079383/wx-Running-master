@@ -1,0 +1,184 @@
+{
+  "id": "4339189",
+  "name": "uinapp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17814604",
+      "name": "已完成",
+      "font_class": "yiwancheng",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "10514894",
+      "name": "必填",
+      "font_class": "bitian",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "23719287",
+      "name": "对钩",
+      "font_class": "duigou",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "1115038",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "15794195",
+      "name": "五角星1",
+      "font_class": "wujiaoxing1",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "630085",
+      "name": "向上箭头",
+      "font_class": "xiangshangjiantou",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "630092",
+      "name": "向下箭头",
+      "font_class": "xiangxiajiantou",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "630094",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "630095",
+      "name": "向左箭头",
+      "font_class": "xiangzuojiantou",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "1929808",
+      "name": "喇叭_1",
+      "font_class": "laba_",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "5201943",
+      "name": "西装",
+      "font_class": "xizhuang",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "5460560",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "ec2e",
+      "unicode_decimal": 60462
+    },
+    {
+      "icon_id": "7541975",
+      "name": "24gl-school",
+      "font_class": "24gl-school",
+      "unicode": "e836",
+      "unicode_decimal": 59446
+    },
+    {
+      "icon_id": "587635",
+      "name": "笔记",
+      "font_class": "biji",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "963806",
+      "name": "服务超市",
+      "font_class": "fuwuchaoshi",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "3289681",
+      "name": "LiquidationOfAssets",
+      "font_class": "LiquidationOfAssets",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "3794042",
+      "name": "体育-起跑",
+      "font_class": "tiyu-qipao",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "4511323",
+      "name": "iconfont_loading bay",
+      "font_class": "iconfont_loadingbay",
+      "unicode": "e6f6",
+      "unicode_decimal": 59126
+    },
+    {
+      "icon_id": "8085427",
+      "name": "Dorm",
+      "font_class": "Dorm",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "9451989",
+      "name": "同学&上课",
+      "font_class": "tongxueshangke-",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "16543000",
+      "name": "跑！！！",
+      "font_class": "pao",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "18166589",
+      "name": "美团外卖",
+      "font_class": "meituan",
+      "unicode": "e8c9",
+      "unicode_decimal": 59593
+    },
+    {
+      "icon_id": "32690394",
+      "name": "图标制作模版2-01",
+      "font_class": "tubiaozhizuomoban2-01",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "34475891",
+      "name": "h0",
+      "font_class": "rentou",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "35203463",
+      "name": "考试 (1)",
+      "font_class": "a-kaoshi1",
+      "unicode": "eb13",
+      "unicode_decimal": 60179
+    }
+  ]
+}

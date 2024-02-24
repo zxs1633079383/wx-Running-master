@@ -1,0 +1,175 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "接单大厅",
+				"enablePullDownRefresh": true
+			}
+		}, 
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true
+			}
+		}
+        ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [
+		{
+			"root": "subpages",
+			"pages": [
+				{
+					"path": "detail/detail",
+					"style" :
+					{
+						"navigationBarTitleText": "店铺详情页",
+					    "enablePullDownRefresh": true
+					}
+				}
+			    ,{
+                    "path" : "pay/pay",
+                    "style" :                                                                                    
+					{
+						"navigationBarTitleText": "订单",
+						"enablePullDownRefresh": false
+					}
+                
+                }
+                ,{
+                    "path" : "publish/publish",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "需求申请单",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "takeaway/takeaway",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "跑腿注册页",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "conversation/conversation",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-cell-group": "/wxcomponents/vant/cell-group/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-grid": "/wxcomponents/vant/grid/index",
+			"van-grid-item": "/wxcomponents/vant/grid-item/index",
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-progress": "/wxcomponents/vant/progress/index",
+			"van-row": "/wxcomponents/vant/row/index",
+			"van-col": "/wxcomponents/vant/col/index",
+			"van-card": "/wxcomponents/vant/card/index",
+			"van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+			"van-dropdown-menu": "/wxcomponents/vant/dropdown-menu/index",
+			"van-dropdown-item": "/wxcomponents/vant/dropdown-item/index",
+			"van-loading": "/wxcomponents/vant/loading/index",
+			"van-nav-bar": "/wxcomponents/vant/nav-bar/index",
+			"van-sidebar": "/wxcomponents/vant/sidebar/index",
+			"van-sidebar-item": "/wxcomponents/vant/sidebar-item/index",
+			"van-goods-action": "/wxcomponents/vant/goods-action/index",
+			"van-goods-action-icon": "/wxcomponents/vant/goods-action-icon/index",
+			"van-goods-action-button": "/wxcomponents/vant/goods-action-button/index",	
+			"van-popup": "/wxcomponents/vant/popup/index",
+			"van-empty": "/wxcomponents/vant/empty/index",
+			"van-tab": "/wxcomponents/vant/tab/index",
+			"van-tabs": "/wxcomponents/vant/tabs/index",
+			"van-datetime-picker": "/wxcomponents/vant/datetime-picker/index",
+			"van-overlay": "/wxcomponents/vant/overlay/index",
+			"van-uploader": "/wxcomponents/vant/uploader/index",
+			 "van-image": "/wxcomponents/vant/image/index"
+		}
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#606d68",
+		"list": [
+			{
+				"text": "首页",
+				"iconPath": "/static/wx_tar.png",
+				"selectedIconPath": "/static/wx_tar.png",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"text": "订单大厅",
+				"iconPath": "/static/my_order.png",
+				"selectedIconPath": "/static/my_order.png",
+				"pagePath": "pages/list/list"
+			},
+			{
+				"text": "我的订单",
+				"iconPath": "/static/order.png",
+				"selectedIconPath": "/static/order.png",
+				"pagePath": "pages/order/order"
+			},
+			{
+				"text": "聊天",
+				"iconPath": "/static/chat.png",
+				"pagePath" : "pages/chat/chat",
+				"selectedIconPath": "static/chat.png"
+			},
+			{
+				"text": "我的",
+				"iconPath": "/static/my_bar.png",
+				"selectedIconPath": "/static/my_bar.png",
+				"pagePath": "pages/me/me"
+			}
+		]
+	}
+}

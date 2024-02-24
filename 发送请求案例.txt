@@ -1,0 +1,61 @@
+//测试发送请求(1. 登录成功设置 cookie,  2. 发送请求携带cookie)
+	// 加载
+	onLoad(() => {
+			console.log("load 加载")
+			uni.request({
+				url: 'http://localhost:8121/api/user/login',
+				method: 'POST',
+				withCredentials: true, // 关键配置
+				data: {
+					"userAccount": "zlc16330",
+					"userPassword": "zhang123."
+				},
+				success: (res) => {
+					console.log(res);
+
+					// 获取登录成功后的 Set-Cookie 头信息
+					const setCookieHeader = res.header['Set-Cookie'];
+
+					// 将 Set-Cookie 头信息存储在本地
+					uni.setStorageSync('sessionCookie', setCookieHeader);
+
+					console.log('Cookie 设置成功:', setCookieHeader);
+
+				},
+				fail: (res) => {
+					console.log("登录调用失败")
+				}
+			})
+
+		}),
+
+		// 加载完毕
+		onReady(() => {
+			console.log('ready onReady')
+
+			// 从本地获取存储的 Cookie
+			const storedCookie = uni.getStorageSync('sessionCookie');
+
+			uni.request({
+				url: 'http://localhost:8121/api/gridItemInfo/add',
+				method: 'POST',
+				withCredentials: true, // 关键配置
+				header: {
+					'content-type': 'application/json',
+					'Cookie': storedCookie
+				},
+				data: {
+					"descStr": "itemtest",
+					"icon": "test",
+					"state": 0,
+					"url": "/test-21"
+				},
+				success: (res) => {
+					console.log(res);
+
+				},
+				fail: (res) => {
+					console.log("调用失败")
+				}
+			})
+		})

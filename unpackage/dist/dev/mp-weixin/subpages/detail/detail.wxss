@@ -1,0 +1,194 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.bgImg.data-v-5fad50b1 {
+  width: 100%;
+  height: 300rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.detail.data-v-5fad50b1 {
+  width: 100%;
+  position: relative;
+}
+.detail .detail-card.data-v-5fad50b1 {
+  width: 88%;
+  height: 240rpx;
+  background-color: #fff;
+  margin: 40rpx 50rpx;
+  border-radius: 30rpx;
+  box-shadow: -1px 3px 10px #ebebeb;
+  position: relative;
+  padding: 20rpx 20rpx 0 20rpx;
+}
+.detail .detail-card image.data-v-5fad50b1 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+  position: absolute;
+  right: 60rpx;
+  top: -50rpx;
+}
+.detail .detail-card .card-top.data-v-5fad50b1 {
+  font-size: 20px;
+}
+.detail .detail-card .collect.data-v-5fad50b1 {
+  padding-top: 10rpx;
+  font-weight: bold;
+  color: #ffaa00;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.detail .detail-card .collect .collect_font_style.data-v-5fad50b1 {
+  font-weight: normal;
+  color: #3d3d3d;
+  font-size: 12px;
+}
+.detail .detail-card .card-address.data-v-5fad50b1 {
+  font-size: 20rpx;
+  color: #a6a6a6;
+}
+.detail .detail-top.data-v-5fad50b1 {
+  height: 100rpx;
+}
+.detail .detail-top.data-v-5fad50b1 .van-nav-bar {
+  background-color: transparent !important;
+}
+.detail .detail-top .detail-title.data-v-5fad50b1 {
+  width: 50%;
+  color: #ebebeb;
+  display: flex;
+  justify-content: space-around;
+}
+.detail .detail-top .detail-title view.data-v-5fad50b1 {
+  box-sizing: border-box;
+}
+.detail .detail-top .detail-title view text.data-v-5fad50b1 {
+  padding-bottom: 15rpx;
+}
+.detail .detail-top .title-active.data-v-5fad50b1 {
+  border-bottom: 2px solid #ebebeb;
+}
+.detail .detail-contant.data-v-5fad50b1 {
+  position: relative;
+}
+.detail .detail-contant .showGoods.data-v-5fad50b1 {
+  width: 80%;
+  height: 100vh;
+  background-color: #f0f0f0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.detail .detail-contant .add_cart_btn.data-v-5fad50b1 {
+  position: absolute;
+  bottom: 20rpx;
+  right: 20rpx;
+  color: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 10rpx;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+.detail .detail-contant .add_cart_btn .add_text.data-v-5fad50b1 {
+  padding: 10rpx;
+}
+.detail .detail_cart.data-v-5fad50b1 {
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  border-top: 1px solid #f5f5f5;
+  color: #c1c1c1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.detail .detail_cart .cart-left.data-v-5fad50b1 {
+  position: relative;
+}
+.detail .detail_cart .cart-left .cart-text.data-v-5fad50b1 {
+  padding-left: 150rpx;
+  font-weight: bold;
+}
+.detail .detail_cart .cart-left .cart_icon.data-v-5fad50b1 {
+  position: absolute;
+  top: -80rpx;
+  left: -20rpx;
+  font-size: 150rpx;
+}
+.detail .detail_cart .cart-left .icon-style.data-v-5fad50b1 {
+  color: #ff470f;
+}
+.detail .detail_cart .cart-right.data-v-5fad50b1 {
+  border: 1px solid #c1c1c1;
+  border-radius: 50rpx;
+  padding: 20rpx 80rpx;
+}
+.detail .detail_cart .goPay-btn.data-v-5fad50b1 {
+  border: 1px solid #ff0000;
+  color: #ff0000;
+}
+.popup-top.data-v-5fad50b1 {
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.popup-top .popup-title.data-v-5fad50b1 {
+  width: 80%;
+  text-align: left;
+  padding-left: 50rpx;
+  font-size: 35rpx;
+}
+.icon.data-v-5fad50b1 {
+  font-size: 60rpx !important;
+  color: #ebebeb;
+}
+.addNotice.data-v-5fad50b1 {
+  width: 240rpx;
+  height: 240rpx;
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 14px;
+  border-radius: 20rpx;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-70%);
+  background-color: #4c4c4c;
+  color: #fff;
+  text-align: center;
+  opacity: 0.9;
+}

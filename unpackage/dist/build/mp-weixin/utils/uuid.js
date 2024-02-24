@@ -1,0 +1,1 @@
+"use strict";exports.uuid=function(){for(var r=[],t="0123456789abcdef",a=0;a<36;a++)r[a]=t.substr(Math.floor(16*Math.random()),1);r[14]="4",r[19]=t.substr(3&r[19]|8,1),r[8]=r[13]=r[18]=r[23]="-";var e=r.join("");return parseInt(e.replace(/-/g,""),16)%1e10};

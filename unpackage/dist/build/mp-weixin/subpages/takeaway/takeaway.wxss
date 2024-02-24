@@ -1,0 +1,1 @@
+.wrapper{width:500rpx;height:300rpx;background-color:#fff;border-radius:30rpx;margin:50%;transform:translate(-50%);display:flex;justify-content:center;align-items:center}.wrapper .contant{text-align:center;padding:50rpx;font-size:40rpx}

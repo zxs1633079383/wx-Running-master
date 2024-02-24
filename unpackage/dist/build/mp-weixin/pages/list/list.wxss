@@ -1,0 +1,1 @@
+.list{width:100%;position:relative}.list .list-content{display:flex;justify-content:space-between;flex-direction:column}.list .list-content .list-item{background-color:#fafafa;margin:8rpx;width:90%;padding:30rpx;border-bottom:1px solid #ccc;border-radius:45rpx;position:relative}.list .list-content .list-item .comfrim-btn{position:absolute;right:10rpx;top:50%}
