@@ -1,6 +1,6 @@
 // 定义请求地址
 // const BASE_URL = "http://39.99.231.129:8121/api/"
-// const BASE_URL = "http://192.168.100.200:8121/api/"
+// const BASE_URL = "http://192.168.5.3:8121/api/"
 const BASE_URL = "https://www.runningcampujxls.com/api/"
 
 // 封装请求方法
